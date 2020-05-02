@@ -1,15 +1,21 @@
 {
   "name": "express-weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weather app using express",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "weather-app",
+    "heroku"
+  ],
+  "author": "Tri Rizeki Rifandani",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
