@@ -11,11 +11,11 @@ app.use(
 );
 app.use(express.json());
 app.use(express.static('public'));
+// using router file
+app.use('/', router);
 // using view engine instead of .html
 app.set('view engine', 'hbs');
 app.set('views', 'views');
-// using router file
-app.use('/', router);
 
 let port = process.env.PORT;
 if (port == null || port == '') {

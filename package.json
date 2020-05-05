@@ -1,7 +1,7 @@
 {
   "name": "express-weather",
   "version": "1.0.0",
-  "description": "Weather app using express",
+  "description": "Weather app using express and openweathermap API",
   "engines": {
     "node": "12.x"
   },
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "weather-app",
-    "heroku"
+    "heroku",
+    "axios",
+    "express",
+    "node"
   ],
   "author": "Tri Rizeki Rifandani",
   "license": "MIT",
@@ -22,9 +25,6 @@
     "hbs": "^4.1.1"
   },
   "devDependencies": {
-    "handlebars-loader": "^1.7.1",
-    "html-webpack-plugin": "^4.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "nodemon": "^2.0.3"
   }
 }
