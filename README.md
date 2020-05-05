@@ -4,6 +4,10 @@
 
 > Membangun Simple Weather App berbasis NodeJS framework ExpressJS dengan template engine hbs dan penyedia weather API openweathermap.org
 
+## Demo
+
+Demo aplikasi dapat diakses dengan link berikut: [Weather Finder](https://agile-island-52063.herokuapp.com/)
+
 ## Prerequisites
 
 - Download dan Install NodeJS
